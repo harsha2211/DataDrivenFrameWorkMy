@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [GoibiboSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="GoibiboTest(failed)">
+    <classes>
+      <class name="com.goibibo.testScripts.TC03">
+        <methods>
+          <include name="setup"/>
+          <include name="searchReturnsNoResult"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.goibibo.testScripts.TC03 -->
+      <class name="com.goibibo.testScripts.TC04">
+        <methods>
+          <include name="close"/>
+          <include name="roundTrip"/>
+          <include name="roundgoibibo"/>
+        </methods>
+      </class> <!-- com.goibibo.testScripts.TC04 -->
+      <class name="com.goibibo.testScripts.TC02">
+        <methods>
+          <include name="close"/>
+          <include name="userIsAbleToInteractWithElements"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.goibibo.testScripts.TC02 -->
+    </classes>
+  </test> <!-- GoibiboTest(failed) -->
+</suite> <!-- Failed suite [GoibiboSuite] -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-22T15:16:33 IST" name="GoibiboSuite" finished-at="2020-09-22T15:18:25 IST" duration-ms="111670">
+    <groups>
+    </groups>
+    <test started-at="2020-09-22T15:16:33 IST" name="GoibiboTest" finished-at="2020-09-22T15:18:25 IST" duration-ms="111670">
+      <class name="com.goibibo.testScripts.TC02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.testScripts.TC02@2fd6b6c7]" started-at="2020-09-22T15:16:34 IST" name="setup" finished-at="2020-09-22T15:17:20 IST" duration-ms="46670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userIsAbleToInteractWithElements()[pri:0, instance:com.goibibo.testScripts.TC02@2fd6b6c7]" started-at="2020-09-22T15:17:20 IST" name="userIsAbleToInteractWithElements" finished-at="2020-09-22T15:18:10 IST" duration-ms="49414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIsAbleToInteractWithElements -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.goibibo.testScripts.TC02@2fd6b6c7]" started-at="2020-09-22T15:18:10 IST" name="close" finished-at="2020-09-22T15:18:13 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.goibibo.testScripts.TC02 -->
+      <class name="com.goibibo.testScripts.TC01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.testScripts.TC01@184cf7cf]" started-at="2020-09-22T15:16:34 IST" name="setup" finished-at="2020-09-22T15:17:20 IST" duration-ms="46668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="defaultPageIsFlightSearch()[pri:0, instance:com.goibibo.testScripts.TC01@184cf7cf]" started-at="2020-09-22T15:17:20 IST" name="defaultPageIsFlightSearch" finished-at="2020-09-22T15:17:56 IST" duration-ms="36229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultPageIsFlightSearch -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:com.goibibo.testScripts.TC01@184cf7cf]" started-at="2020-09-22T15:17:56 IST" name="close" finished-at="2020-09-22T15:18:05 IST" duration-ms="8039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=defaultPageIsFlightSearch status=SUCCESS method=TC01.defaultPageIsFlightSearch()[pri:0, instance:com.goibibo.testScripts.TC01@184cf7cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.goibibo.testScripts.TC01 -->
+      <class name="com.goibibo.testScripts.TC04">
+        <test-method is-config="true" signature="roundTrip()[pri:0, instance:com.goibibo.testScripts.TC04@5db250b4]" started-at="2020-09-22T15:16:34 IST" name="roundTrip" finished-at="2020-09-22T15:17:20 IST" duration-ms="46673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTrip -->
+        <test-method signature="roundgoibibo()[pri:0, instance:com.goibibo.testScripts.TC04@5db250b4]" started-at="2020-09-22T15:17:20 IST" name="roundgoibibo" finished-at="2020-09-22T15:18:24 IST" duration-ms="63725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundgoibibo -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:com.goibibo.testScripts.TC04@5db250b4]" started-at="2020-09-22T15:18:24 IST" name="close" finished-at="2020-09-22T15:18:25 IST" duration-ms="1166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=roundgoibibo status=SUCCESS method=TC04.roundgoibibo()[pri:0, instance:com.goibibo.testScripts.TC04@5db250b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.goibibo.testScripts.TC04 -->
+      <class name="com.goibibo.testScripts.TC03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.goibibo.testScripts.TC03@5bfa9431]" started-at="2020-09-22T15:16:34 IST" name="setup" finished-at="2020-09-22T15:17:28 IST" duration-ms="54863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchReturnsNoResult()[pri:0, instance:com.goibibo.testScripts.TC03@5bfa9431]" started-at="2020-09-22T15:17:28 IST" name="searchReturnsNoResult" finished-at="2020-09-22T15:17:54 IST" duration-ms="25473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchReturnsNoResult -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.goibibo.testScripts.TC03@5bfa9431]" started-at="2020-09-22T15:17:54 IST" name="close" finished-at="2020-09-22T15:18:05 IST" duration-ms="10691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.goibibo.testScripts.TC03 -->
+    </test> <!-- GoibiboTest -->
+  </suite> <!-- GoibiboSuite -->
+</testng-results>
